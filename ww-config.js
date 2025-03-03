@@ -7,10 +7,12 @@ export default {
   properties: {
     textColor: {
       label: {
-        en: "Text color",
+        en: "URL",
       },
-      type: "Color",
       defaultValue: "#F23636",
+      type: "String",
+      defaultValue: "",
+      bindable: true,
     },
   },
 };

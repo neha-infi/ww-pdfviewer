@@ -2,7 +2,7 @@
   <div class="my-section" >
     <h1 :style="textStyle">My Title</h1>
     <p>
-      test
+      testing pdf
     </p>
     <div id="app">
       <WebViewer :path="`${publicPath}`" url="https://pdftron.s3.amazonaws.com/downloads/pl/webviewer-demo.pdf"/>

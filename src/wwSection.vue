@@ -28,7 +28,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.my-section {
+.PDF-viewer{
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,5 +1,5 @@
 <template>
-  <div class="my-section" >
+  <div class="PDF-viewer" >
     <h1 :style="textStyle">My Title</h1>
     <p>
       testing pdf
@@ -15,13 +15,13 @@
 import WebViewer from './components/WebViewer.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     WebViewer
   },
   data () {
     return {
-      publicPath: "/dist/public/pdfjsexpress/"
+      publicPath: "/dist/pdfjsexpress/"
     }
   }
 }
